@@ -31,10 +31,10 @@ crontab -e
 Annoyingly, I have found that using the GUI to enable or amend the NTP update function will wipe any manual “crontab” entries you have made. Watchout!
 
 ### Missing and ToDo
-Nothing... unless someone spots something.
+Nothing... unless something is spotted.
 
 ### Credits
 Most of the Internet for help & inspiration.
 
 ### License
-Public domain; do what you like.
+Public domain - do what you like.
