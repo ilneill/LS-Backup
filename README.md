@@ -22,9 +22,13 @@ Yes. I use it weekly on a CRON job to a USB HDD. Backups are manditory in my wor
 This is a bash script. I have put it in the "root" of my USB HDD drive and automated via “cron”.
 
 To perform a backup at 7am every Sunday, add this to /etc/crontab
+
+CLI Prep:
 ```
 export EDITOR=vi
 crontab -e
+```
+CRONtab addition:
 ```
 00 7 * * 0 /mnt/usbdisk1/ls-backup > /mnt/usbdisk1/ls-backup.log
 ```
